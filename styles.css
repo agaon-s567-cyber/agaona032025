@@ -1,0 +1,122 @@
+body {
+background-color: bisque;
+}
+.container {
+max-width: 1200px;
+min-height: 10rem;
+margin: auto;
+background-color: white;
+padding: 1rem;
+}
+#pageheader {
+background-color: coral;
+min-height: 10rem;
+min-height: auto;
+padding: .25rem;
+}
+#logo {
+background-image: url(Logo.png);
+width: 6.25rem;
+height: 6.25rem;
+border: 1px solid none;
+}
+
+#pageheader .container {
+min-height: auto;
+}
+#pageheader nav {
+    text-align: center;
+}
+#pageheader nav ul
+{background-color: yellow;
+margin: 0px;
+padding: 0;
+list-style-type:none;}
+#pageheader nav ul li
+{
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 2px;
+    background-color: aliceblue;
+}
+#pageheader nav ul li a:hover
+{
+    background-color: aliceblue;
+}
+
+#media {
+background-color: lightblue;
+min-height: 10rem;
+padding: 1rem;
+background-image: url(Images/H.png);
+background-size: cover;
+aspect-ratio: 16/9;
+}
+
+#career {
+background-color: aqua;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagecontent {
+background-color: lightgreen;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester1 {
+background-color: aquamarine;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#semester2 {
+background-color: lightgreen;
+min-height: 10rem;
+padding: 1rem;
+}
+
+#pagefooter {
+background-color: cornflowerblue;
+min-height: 10rem;
+padding: 1rem;
+}
+#aifooter
+{
+    background-color: aqua;
+    padding: 1rem;
+    min-height: auto;
+}
+#aifooter .container
+{
+    min-height: auto;
+    text-align: center;
+}
+#subfooter {
+background-color: steelblue;
+min-height: 10rem;
+padding: 1rem;
+}
+
+audio {
+border: 5px solid steelblue;
+background-color: steelblue;
+display: block;
+margin: auto;
+}
+
+
+@media screen and  (min-width:600px)
+{
+    #pageheader nav ul li
+    { 
+        display: inline-block
+
+    }
+   
+}
+@media screen and (min-width:1000px)
+{
+    #pagecontent{background-color: purple;}
+}
