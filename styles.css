@@ -1,15 +1,15 @@
 body {
-background-color: bisque;
+background-color: orangered;
 }
 .container {
 max-width: 1200px;
 min-height: 10rem;
 margin: auto;
-background-color: white;
+background-color:orangered;
 padding: 1rem;
 }
 #pageheader {
-background-color: coral;
+background-color: black;
 min-height: 10rem;
 min-height: auto;
 padding: .25rem;
@@ -28,7 +28,7 @@ min-height: auto;
     text-align: center;
 }
 #pageheader nav ul
-{background-color: yellow;
+{background-color: orangered;
 margin: 0px;
 padding: 0;
 list-style-type:none;}
@@ -45,7 +45,7 @@ list-style-type:none;}
 }
 
 #media {
-background-color: lightblue;
+background-color: black;
 min-height: 10rem;
 padding: 1rem;
 background-image: url(Images/H.png);
@@ -54,13 +54,13 @@ aspect-ratio: 16/9;
 }
 
 #career {
-background-color: aqua;
+background-color: black;
 min-height: 10rem;
 padding: 1rem;
 }
 
 #pagecontent {
-background-color: lightgreen;
+background-color: black;
 min-height: 10rem;
 padding: 1rem;
 }
