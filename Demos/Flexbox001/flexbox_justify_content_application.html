@@ -31,15 +31,15 @@
         }
         ul#list
         {
-            display: flex;
+            display: block;
             list-style-type: none;
             border: 1px solid black;
             padding: 1rem;
             width: 75%;
             margin: auto;
-            justify-content: space-evenly;
+            justify-content: space-around;
         }
-        #buttons
+        #fbbuttons
         {
             display: flex;
             justify-content: space-around;
@@ -47,11 +47,12 @@
             width: 75%;
             margin: auto;
         }
-        #cards
+        div#cards
         {
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            padding: 1rem;
+            justify-content: center;
+            background-color: lightpink;
         }
         #link
         {
@@ -80,7 +81,7 @@
 
 
     <h2>Buttons</h2>
-    <ul id="buttons">
+    <ul id="fbbuttons">
     <li><button type="button">Button 1</button></li>
     <li><button type="button">Button 2</button></li>
     <li><button type="button">Button 3</button></li>
@@ -90,19 +91,21 @@
 
 
     <h2>Cards</h2>
-    <div class="card">
-        <h3>Card Title 1</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-        <h3>Card Title 2</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-        <h3>Card Title 3</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-
+<div id="cards">
+        <div class="card">
+            <h3>Card Title 1</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card Title 2</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card Title 3</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+    
+</div>
     <h2>Link Lists</h2>
     <ul id="link">
         <li><a href="https://google.com/">Google</a></li>
