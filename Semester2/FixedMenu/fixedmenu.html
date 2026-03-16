@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Menu</title>
+    <style>
+        /* Mobile First*/
+        html
+        {
+            /*Temporary - delete */
+            height: 200%
+        }
+        body
+        {
+            background-color: orangered;
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Delete me */
+        /* #fblogoheader
+        {
+            background-color: tomato;
+            padding: 1rem;
+            margin: 1rem;
+        } */
+        #pageheader
+        {
+            background-color: red;
+            padding: 1rem;
+            /* Default */
+            position: static;
+        }
+        img#logo
+        {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+        #pageheader h1
+        {
+            color: orangered;
+            text-align: center;
+            /* Remove color */
+            background-color: blue;
+        }
+        #pageheader nav
+        {
+            background-color: orangered;
+            padding: .5rem;
+            border-radius: 10px;
+        }
+        #pageheader ul
+        {
+            background-color: yellow;
+            padding: .5rem;
+            list-style-type: none;
+            /* flexbox components */
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+        #pageheader li
+        {
+            text-align: center;
+            padding: .5rem;
+            background-color: yellow;
+            border: 2px solid black;
+        }
+        #pageheader a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        /* Non pageheader items */
+        main
+        {
+            padding: 1rem;
+        }
+        h2
+        {
+            color: gold;
+        }
+        p
+        {
+            line-height: 1.5;
+            color: black;
+        }
+        /* Tablet and Desktop CSS */
+        @media  screen and (min-width: 700px) {
+        body
+        {
+            background-color: brown;
+            
+        }
+        #pageheader
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            /* flexbox components */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #fblogoheader
+        {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        #pageheader nav
+        {
+            min-width: 400px;
+        }
+        #pageheader ul
+        {
+            flex-direction: row;
+            justify-content: center;
+        }
+        main
+        {
+            padding-top: 200px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header id="pageheader">
+        <!-- Start the logo and header-->
+        <div id="fblogoheader">
+            <img id="logo" src="Images/paws_logo.png" alt="Paws Logo">
+            <h1>Paw's and Whiskers</h1>
+        </div>
+        <!-- End the logo and header-->
+        <!--Start the navigation-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Pets</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <!-- End the navigation -->
+    </header>
+    <main>
+        <h2>Fixed Menu</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         Soluta repellat ullam dignissimos recusandae incidunt, fugit, iure obcaecati, voluptatibus perferendis repellendus aut dolores minus!
+         Magni iure possimus saepe quia voluptatum hic quo facere.
+        Nihil aperiam rem corrupti molestiae quod aspernatur aut, soluta laborum esse inventore doloribus deleniti officiis modi voluptates totam.</p>
+    </main>
+</body>
+</html>

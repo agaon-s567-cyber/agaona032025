@@ -18,7 +18,8 @@ padding: .25rem;
 background-image: url(Logo.png);
 width: 6.25rem;
 height: 6.25rem;
-border: 1px solid none;
+border: 1px solid black;
+margin: auto;
 }
 
 #pageheader .container {
