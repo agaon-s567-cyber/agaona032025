@@ -1,5 +1,5 @@
 body {
-background-color: orangered;
+background-color: red;
 }
 .container {
 max-width: 1200px;
@@ -77,12 +77,12 @@ background-color: black;
 min-height: 10rem;
 padding: 1rem;
 }
-#worksample {
-background-color: black;
+#worksamples {
+background-color: white;
 min-height: 10rem;
 padding: 1rem;
 }
-#certificate {
+#certificates {
 background-color: black;
 min-height: 10rem;
 padding: 1rem;
@@ -117,6 +117,12 @@ display: block;
 margin: auto;
 }
 
+ul
+{
+    list-style-type: none;
+}
+
+i{color:lightgreen;}
 
 @media screen and  (min-width:600px)
 {
